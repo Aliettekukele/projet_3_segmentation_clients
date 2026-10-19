@@ -74,11 +74,23 @@ Ces observations décrivent les données disponibles ; elles ne permettent pas, 
 
 ## 📈 Visualisations
 
-Les graphiques produits pendant l'analyse sont enregistrés dans le dossier `images/` :
+### 1. Méthode du coude
 
-- `clusters_clients.png` : visualisation des groupes de clients.
-- `methode_du_coude.png` : aide au choix du nombre de clusters.
-- `revenu_vs_depense.png` : relation entre revenu annuel et score de dépense.
+Cette méthode permet d'étudier le nombre de clusters à retenir pour la segmentation.
+
+![Méthode du coude](images/methode_du_coude.png)
+
+### 2. Segmentation des clients
+
+Ce graphique présente les groupes de clients identifiés par l'algorithme K-Means.
+
+![Clusters des clients](images/clusters_clients.png)
+
+### 3. Revenu annuel et score de dépense
+
+Ce graphique permet de visualiser la répartition des clients selon leur revenu annuel et leur score de dépense.
+
+![Revenu annuel et score de dépense](images/revenu_vs_depense.png)
 
 ## 🖥️ Fonctionnalités du dashboard
 
